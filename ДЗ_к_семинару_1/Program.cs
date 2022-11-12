@@ -9,3 +9,11 @@ if (number%2 == 0)
     }
     number++;
 }
+while (number >= N)
+{
+if (number%2 == 0)
+    {
+        Console.Write($"{number}, ");
+    }
+    number--;
+}
